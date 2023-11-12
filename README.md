@@ -7,7 +7,7 @@ This website provides general information about "Zbór Chrystusa Zbawiciela," a 
 
 ## Location
 
-You can find us at [Insert Church Address], [City], [Country]. Join us for our services and events to experience a warm and welcoming community.
+You can find us at Kościószki 26 street, Włocławek 87-800, Poland. Join us for our services and events to experience a warm and welcoming community.
 
 ## Our Beliefs
 
