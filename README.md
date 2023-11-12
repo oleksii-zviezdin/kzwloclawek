@@ -1,5 +1,4 @@
-# Zbór Chrystusa Zbawiciela Landing Page
-
+# Zbór Chrystusa Zbawiciela
 Welcome to the landing page for "Zbór Chrystusa Zbawiciela"!
 
 ## About
