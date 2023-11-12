@@ -1,5 +1,5 @@
 import { About, Home, SupportUs, WhoWeAre } from 'pages/index';
-import { Acts, Beliefs, History } from 'components';
+import { Acts, Beliefs, History } from './index';
 import { Routes, Route } from 'react-router-dom';
 import { Container, Header, Logo, Link } from './App.styled';
 
