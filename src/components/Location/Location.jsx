@@ -1,45 +1,24 @@
-import { useEffect } from 'react';
+import { LocationSection, LocationDiv, H2 } from './Location.styled';
 
+/* eslint-disable jsx-a11y/iframe-has-title */
 const Location = () => {
-  useEffect(() => {
-    const mapOptions = {
-      center: { lat: 40.7128, lng: -74.006 }, // Координати для Нью-Йорка (початкові координати)
-      zoom: 12,
-    };
-
-    const map = new window.google.maps.Map(
-      document.getElementById('map'),
-      mapOptions
-    );
-
-    // Додайте маркер для позначення конкретної локації
-    new window.google.maps.Marker({
-      position: { lat: 40.7128, lng: -74.006 },
-      map: map,
-      title: 'Моя конкретна локація',
-    });
-  }, []);
   return (
-    <section>
-      <h2>Gdzie nas szukać</h2>
-      <div id="map" style={{ height: '400px' }}></div>
-    </section>
+    <LocationSection id="#Where">
+      <LocationDiv>
+        <H2>Gdzie nas znajdziesz</H2>
+      </LocationDiv>
+      <LocationDiv>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d662.42750182138!2d19.0612708050117!3d52.65320439927758!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471c993b3fbeb913%3A0x33e36b7338978991!2zS2_Fm2Npw7PFgiBaaWVsb25vxZt3acSFdGtvd3kgWmLDs3IgQ2hyeXN0dXNhIFpiYXdpY2llbGEgd2UgV8WCb2PFgmF3a3U!5e1!3m2!1suk!2spl!4v1699911424982!5m2!1suk!2spl"
+          allowfullscreen=""
+          width="350"
+          height="350"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </LocationDiv>
+    </LocationSection>
   );
 };
-
-// import { withGoogleMap, GoogleMap, Marker } from 'react-google-maps';
-
-// const Map = withGoogleMap(props => (
-//   <GoogleMap defaultZoom={8} defaultCenter={{ lat: -34.397, lng: 150.644 }}>
-//     <Marker position={{ lat: -34.397, lng: 150.644 }} />
-//   </GoogleMap>
-// ));
-
-// const MyMapComponent = () => (
-//   <Map
-//     containerElement={<div style={{ height: '400px' }} />}
-//     mapElement={<div style={{ height: '100%' }} />}
-//   />
-// );
 
 export default Location;
