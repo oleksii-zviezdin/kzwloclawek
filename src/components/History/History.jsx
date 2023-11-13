@@ -1,4 +1,4 @@
-export const History = () => {
+const History = () => {
   return (
     <section>
       <h2>Historia Ruchu Zielonoświątkowego</h2>
