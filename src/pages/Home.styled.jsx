@@ -1,22 +1,40 @@
 import styled from '@emotion/styled';
-// import imgHero from '../img/hero-01.jpg';
+import imgHero from '../img/hero-01.jpg';
 
 export const ImgHero = styled.img`
   width: 100%;
   size: cover;
 `;
 
-export const HeroSection = styled.div`
+export const HeroSection = styled.section`
   position: relative;
   text-align: center;
 `;
 
-export const HeroDiv = styled.div`
+export const BlurBox = styled.div`
   position: absolute;
-  transform: translate(-50%, -50%);
-  z-index: 1;
-  left: 50%;
-  top: 40%;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100.075%;
+  height: 100.075%;
+  backdrop-filter: blur(2px);
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.15),
+    rgba(0, 0, 0, 0.15)
+  );
+`;
+
+export const HeroDiv = styled.div`
+  position: relative;
+  width: 100%;
+  background-image: url(${imgHero});
+  backdrop-filter: blur(1px);
+  padding-top: 10vw;
+  padding-bottom: 10vw;
 `;
 
 export const H1 = styled.h1`
@@ -28,4 +46,35 @@ export const H1 = styled.h1`
     -10px 10px 10px rgba(255, 255, 255, 0.85),
     -10px -10px 10px rgba(255, 255, 255, 0.85),
     10px -10px 10px rgba(255, 255, 255, 0.85);
+`;
+
+export const HeroBoxOfButton = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vw;
+`;
+
+export const HeroButton = styled.a`
+  display: inline-block;
+  padding: 0.75vw;
+
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.75);
+
+  border-radius: 8px;
+  backdrop-filter: blur(5px);
+  outline: 5px solid rgba(0, 0, 0, 0.599);
+  transition-duration: 250ms;
+  &:hover,
+  &:focus {
+    box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.5),
+      -10px 10px 10px rgba(255, 255, 255, 0.5),
+      -10px -10px 10px rgba(255, 255, 255, 0.5),
+      10px -10px 10px rgba(255, 255, 255, 0.5);
+    scale: 1.1;
+  }
 `;

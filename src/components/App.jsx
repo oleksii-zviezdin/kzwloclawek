@@ -1,7 +1,16 @@
 import { About, Home, SupportUs, WhoWeAre } from 'pages/index';
 import { Acts, Beliefs, History } from './index';
 import { Routes, Route } from 'react-router-dom';
-import { Container, Header, Logo, Link } from './App.styled';
+import {
+  Container,
+  Header,
+  Logo,
+  Link,
+  HeaderNav,
+  LogoLink,
+  LogoTitle,
+  LogoDescription,
+} from './App.styled';
 
 import logo from '../img/logo.png';
 
@@ -10,22 +19,42 @@ export const App = () => {
     <Container>
       <Header>
         <Logo>
-          <img src={logo} width="50px" alt="logo" />
-          <div>
-            <p>Zbór Chrystusa Zbawiciela</p>
-            <p style={{ fontSize: '12px' }}>
-              Kościół Zielonoświątkowy we Włocławku
-            </p>
-          </div>
+          <LogoLink to="/" end>
+            <img src={logo} width="50px" alt="logo" />
+          </LogoLink>
+          <LogoTitle>
+            <LogoDescription>
+              Zbór Chrystusa{' '}
+              <span
+                style={{
+                  color: '#bb0000',
+                  textShadow: 'none',
+                }}
+              >
+                Zbawiciela
+              </span>
+            </LogoDescription>
+            <LogoDescription style={{ fontSize: '12px' }}>
+              Kościół Zielonoświątkowy we{' '}
+              <span
+                style={{
+                  color: '#bb0000',
+                  textShadow: 'none',
+                }}
+              >
+                Włocławku
+              </span>
+            </LogoDescription>
+          </LogoTitle>
         </Logo>
-        <nav>
+        <HeaderNav>
           <Link to="/" end>
             Strona Główna
           </Link>
           <Link to="/about">O nas</Link>
           <Link to="/who-we-are">Kim jesteśmy</Link>
           <Link to="/support-us">Wesprzyj nas</Link>
-        </nav>
+        </HeaderNav>
       </Header>
       <Routes>
         <Route path="/" element={<Home />} />
