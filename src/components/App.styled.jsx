@@ -16,10 +16,9 @@ export const Header = styled.header`
   justify-content: space-between;
   gap: 24px;
   padding: 8px 8px;
-  margin-bottom: 16px;
+  background-color: rgba(178, 156, 125, 0.615);
   backdrop-filter: blur(10px);
-  border-radius: 8px;
-  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.5);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 `;
 
 export const Logo = styled.div`
@@ -58,8 +57,6 @@ export const Link = styled(NavLink)`
   text-decoration: none;
   color: black;
   font-weight: 700;
-
-  border-radius: 8px;
   transition-duration: 250ms;
   &:hover,
   &:focus,

@@ -6,6 +6,7 @@ const Location = () => {
     <LocationSection id="#Where">
       <LocationDiv>
         <H2>Gdzie nas znajdziesz</H2>
+        <p>Zapraszamy na ul. Kościuszki 26</p>
       </LocationDiv>
       <LocationDiv>
         <iframe

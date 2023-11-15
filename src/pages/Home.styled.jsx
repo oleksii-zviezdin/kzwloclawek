@@ -32,6 +32,8 @@ export const HeroDiv = styled.div`
   position: relative;
   width: 100%;
   background-image: url(${imgHero});
+  background-repeat: no-repeat;
+  background-size: cover;
   backdrop-filter: blur(1px);
   padding-top: 10vw;
   padding-bottom: 10vw;
@@ -77,4 +79,29 @@ export const HeroButton = styled.a`
       10px -10px 10px rgba(255, 255, 255, 0.5);
     scale: 1.1;
   }
+
+  @keyframes stretchAnimation {
+    0% {
+      transform: scale(1);
+    }
+    15% {
+      transform: scale(1.075);
+    }
+    30% {
+      transform: scale(1.025);
+    }
+    50% {
+      transform: scale(1.08);
+    }
+    75% {
+      transform: scale(1.05);
+    }
+    95% {
+      transform: scale(1.015);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  animation: stretchAnimation 3000ms forwards infinite ease-out 2000ms;
 `;

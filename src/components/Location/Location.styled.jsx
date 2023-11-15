@@ -10,8 +10,10 @@ export const LocationSection = styled.section`
 `;
 
 export const LocationDiv = styled.div`
+  font-size: 18px;
   text-align: center;
   width: 50%;
+  color: rgba(0, 0, 0, 0.599);
 `;
 
 export const LocationIframe = styled.iframe`
@@ -20,7 +22,7 @@ export const LocationIframe = styled.iframe`
 `;
 
 export const H2 = styled.h2`
-  font-size: 26px;
+  font-size: 2vw;
   text-transform: uppercase;
   color: rgba(0, 0, 0, 0.599);
 
