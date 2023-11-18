@@ -19,7 +19,6 @@ export const LocationDiv = styled.div`
 
   font-size: 18px;
   width: 50%;
-  color: rgba(0, 0, 0, 0.599);
 
   backdrop-filter: blur(10px);
   border-radius: 8px;
@@ -31,7 +30,7 @@ export const LocationDescription = styled.p`
   padding: 5px;
   font-size: 2vw;
   width: 50%;
-  color: rgba(247, 247, 247, 0.85);
+  color: rgba(247, 247, 247, 0.95);
 `;
 
 export const LocationIframe = styled.iframe`
@@ -42,7 +41,7 @@ export const LocationIframe = styled.iframe`
 export const H2 = styled.h2`
   font-size: 2.5vw;
   text-transform: uppercase;
-  color: rgba(0, 0, 0, 0.599);
+  color: rgba(0, 0, 0, 0.75);
 
   text-shadow: 5px 5px 10px rgba(255, 255, 255, 0.85),
     -5px 5px 10px rgba(255, 255, 255, 0.85),

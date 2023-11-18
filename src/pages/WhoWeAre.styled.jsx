@@ -18,7 +18,7 @@ export const WhoWeAreH2 = styled.h2`
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
-  color: rgba(0, 0, 0, 0.599);
+  color: rgba(0, 0, 0, 0.75);
   text-shadow: 3px 3px 10px rgba(255, 255, 255, 0.85),
     -3px 3px 10px rgba(255, 255, 255, 0.85),
     -3px -3px 10px rgba(255, 255, 255, 0.85),
@@ -31,7 +31,7 @@ export const WhoWeAreWelcome = styled.h3`
   font-size: 20px;
   display: inline-block;
   text-transform: uppercase;
-  color: rgba(0, 0, 0, 0.599);
+  color: rgba(0, 0, 0, 0.85);
   font-weight: 700;
 `;
 
@@ -52,7 +52,7 @@ export const WhoWeAreListItem = styled.li`
   line-height: calc(24 / 18);
   display: inline-block;
   text-align: left;
-  color: rgba(0, 0, 0, 0.599);
+  color: rgba(0, 0, 0, 0.75);
   font-weight: 500;
 `;
 

@@ -114,7 +114,7 @@ export const Footer = styled.footer`
       transition-duration: 250ms;
       &:hover,
       &:focus {
-        color: rgba(247, 247, 247, 1);
+        color: rgba(255, 255, 255, 0.8);
         text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.25),
           -2px 2px 4px rgba(255, 255, 255, 0.25),
           -2px -2px 4px rgba(255, 255, 255, 0.25),
@@ -137,7 +137,7 @@ export const ContactList = styled.ul`
 `;
 export const ContactListItems = styled.li`
   font-weight: 400;
-  color: rgba(247, 247, 247, 0.85);
+  color: rgba(255, 255, 255, 0.8);
 `;
 
 export const Address = styled.a`
@@ -151,7 +151,7 @@ export const Address = styled.a`
   transition-duration: 250ms;
   &:hover,
   &:focus {
-    color: rgba(247, 247, 247, 1);
+    color: rgba(255, 255, 255, 0.8);
     text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.25),
       -2px 2px 4px rgba(255, 255, 255, 0.25),
       -2px -2px 4px rgba(255, 255, 255, 0.25),
@@ -170,7 +170,7 @@ export const Mail = styled.a`
   transition-duration: 250ms;
   &:hover,
   &:focus {
-    color: rgba(247, 247, 247, 1);
+    color: rgba(255, 255, 255, 0.8);
     text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.25),
       -2px 2px 4px rgba(255, 255, 255, 0.25),
       -2px -2px 4px rgba(255, 255, 255, 0.25),

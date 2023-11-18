@@ -20,7 +20,7 @@ export const AboutH1 = styled.h1`
   margin: 0;
   padding: 10vw;
   text-transform: uppercase;
-  color: rgba(0, 0, 0, 0.599);
+  color: rgba(0, 0, 0, 0.75);
 
   text-shadow: 5px 5px 10px rgba(255, 255, 255, 0.85),
     -5px 5px 10px rgba(255, 255, 255, 0.85),
@@ -47,7 +47,7 @@ export const AboutListItems = styled(NavLink)`
   color: rgba(0, 0, 0, 0.599);
   font-weight: 500;
   transition-duration: 250ms;
-  color: #ffffffa7;
+  color: rgba(255, 255, 255, 0.8);
   &:hover,
   &:focus {
     background-color: rgba(0, 0, 0, 0.599);

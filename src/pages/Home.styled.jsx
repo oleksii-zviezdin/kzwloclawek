@@ -59,7 +59,7 @@ export const HeroDiv = styled.div`
 export const H1 = styled.h1`
   font-size: 46px;
   text-transform: uppercase;
-  color: rgba(0, 0, 0, 0.599);
+  color: rgba(0, 0, 0, 0.75);
 
   text-shadow: 10px 10px 10px rgba(255, 255, 255, 0.85),
     -10px 10px 10px rgba(255, 255, 255, 0.85),
