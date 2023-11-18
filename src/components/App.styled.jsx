@@ -101,6 +101,13 @@ export const Footer = styled.footer`
 
   background-color: rgba(0, 0, 0, 0.45);
   border-top: 0.25vw solid rgba(255, 255, 255, 0.5);
+  > p {
+    margin: 0;
+    margin-top: 32px;
+    text-align: center;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.5);
+  }
 `;
 
 export const Contact = styled.div`

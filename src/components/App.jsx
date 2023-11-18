@@ -100,6 +100,7 @@ export const App = () => {
             </ContactList>
           </Contact>
         </Logo>
+        <p>© 2023 Zbór Chrystusa Zbawiciela</p>
       </Footer>
     </Container>
   );
