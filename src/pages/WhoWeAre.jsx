@@ -60,7 +60,7 @@ const WhoWeAre = () => {
       <WhoWeAreMotto>„Kochamy Boga, służymy ludziom.”</WhoWeAreMotto>
       <WhoWeAreWishes>
         Niech Bóg dziś przemawia do Twojego serca. On jest wystarczająco silny
-        aby zmienić Twoje życie. Niezeleżnie od tego kim jesteś – niech Bóg Cię
+        aby zmienić Twoje życie. Niezależnie od tego kim jesteś – niech Bóg Cię
         błogosławi!
       </WhoWeAreWishes>
       <iframe
