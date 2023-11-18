@@ -7,7 +7,7 @@ export const LocationSection = styled.section`
   gap: 24px;
 
   padding: 5vw 5vw;
-  border-bottom: 5px solid rgba(255, 255, 255, 0.5);
+  /* border-bottom: 5px solid rgba(255, 255, 255, 0.5); */
 `;
 
 export const LocationDiv = styled.div`

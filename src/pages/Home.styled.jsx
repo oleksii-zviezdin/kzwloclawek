@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
-import imgHero from '../img/hero-01.jpg';
-import bgImg from '../img/bg.png';
+import imgHero from '../img/hero-01.webp';
+import bgImg from '../img/bg.webp';
 import { Link } from 'react-scroll';
 
 export const HomeMain = styled.main`
@@ -52,12 +52,12 @@ export const HeroDiv = styled.div`
   backdrop-filter: blur(1px);
   padding-top: 10vw;
   padding-bottom: 10vw;
-  border-bottom: 5px solid rgba(255, 255, 255, 0.75);
+  border-bottom: 0.25vw solid rgba(255, 255, 255, 0.75);
   box-shadow: 0 5px 23px #a2a2a2;
 `;
 
 export const H1 = styled.h1`
-  font-size: 42px;
+  font-size: 46px;
   text-transform: uppercase;
   color: rgba(0, 0, 0, 0.599);
 

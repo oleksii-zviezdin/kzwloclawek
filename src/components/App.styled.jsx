@@ -16,7 +16,7 @@ export const Header = styled.header`
   align-items: center;
   justify-content: space-between;
   gap: 24px;
-  padding: 8px 20px;
+  padding: 8px 32px;
   background-color: rgba(117, 117, 117, 0.615);
   backdrop-filter: blur(10px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
@@ -97,9 +97,10 @@ export const HeaderNav = styled.nav`
 `;
 
 export const Footer = styled.footer`
-  padding: 5vw 20px;
+  padding: 5vw 32px;
 
   background-color: rgba(0, 0, 0, 0.45);
+  border-top: 0.25vw solid rgba(255, 255, 255, 0.5);
 `;
 
 export const Contact = styled.div`

@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 import { NavLink } from 'react-router-dom';
-import bgImg from '../img/bg.png';
+import bgImg from '../img/bg.webp';
 
 export const AboutMain = styled.main`
   margin-top: 0;

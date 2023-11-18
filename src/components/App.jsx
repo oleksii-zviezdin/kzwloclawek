@@ -18,7 +18,7 @@ import {
   Mail,
 } from './App.styled';
 
-import logo from '../img/logo.png';
+import logo from '../img/logo.webp';
 
 export const App = () => {
   return (
