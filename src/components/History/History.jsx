@@ -1,13 +1,28 @@
 const History = () => {
   return (
-    <section>
-      <h2>Historia Ruchu Zielonoświątkowego</h2>
-      <p>
+    <section
+      style={{
+        margin: '0',
+        padding: '5px',
+      }}
+    >
+      {/* <h2>Historia Ruchu Zielonoświątkowego</h2> */}
+      <p
+        style={{
+          margin: '0',
+          padding: '5px',
+        }}
+      >
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut, nesciunt
         veniam. Excepturi itaque, voluptates fugiat perspiciatis quo saepe! Iste
         eaque porro eveniet error dicta, modi ipsum hic quis minima inventore.
       </p>
-      <p>
+      <p
+        style={{
+          margin: '0',
+          padding: '5px',
+        }}
+      >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quaerat
         illum excepturi odit doloremque, vitae quasi corporis commodi nisi quae
         perspiciatis amet consectetur reprehenderit inventore laborum facilis

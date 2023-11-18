@@ -2,9 +2,10 @@ import styled from '@emotion/styled';
 import { NavLink } from 'react-router-dom';
 
 export const Container = styled.div`
-  max-width: 1500px;
+  max-width: 1720px;
   margin: 0 auto;
-  padding: 0 16px;
+  /* padding: 0 16px; */
+  /* background-color: rgba(0, 0, 0, 0.599); */
 `;
 
 export const Header = styled.header`
@@ -15,10 +16,11 @@ export const Header = styled.header`
   align-items: center;
   justify-content: space-between;
   gap: 24px;
-  padding: 8px 8px;
-  background-color: rgba(178, 156, 125, 0.615);
+  padding: 8px 20px;
+  background-color: rgba(117, 117, 117, 0.615);
   backdrop-filter: blur(10px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  border-bottom: 0.25vw solid rgba(255, 255, 255, 0.75);
 `;
 
 export const Logo = styled.div`
@@ -47,6 +49,7 @@ export const LogoDescription = styled.p`
 `;
 
 export const Link = styled(NavLink)`
+  outline: none;
   display: inline-block;
   padding: 8px 16px;
 
@@ -67,6 +70,7 @@ export const Link = styled(NavLink)`
 `;
 
 export const LogoLink = styled(NavLink)`
+  outline: none;
   display: inline-block;
 
   border-radius: 8px;
@@ -87,5 +91,65 @@ export const LogoLink = styled(NavLink)`
 
 export const HeaderNav = styled.nav`
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
   gap: 1vw;
+`;
+
+export const Footer = styled.footer`
+  padding: 5vw 20px;
+
+  background-color: rgba(0, 0, 0, 0.45);
+`;
+
+export const Contact = styled.div`
+  display: block;
+  list-style: none;
+`;
+
+export const ContactList = styled.ul`
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: left;
+`;
+export const ContactListItems = styled.li`
+  font-weight: 400;
+  color: rgba(247, 247, 247, 0.85);
+`;
+
+export const Address = styled.a`
+  outline: none;
+  display: flex;
+  gap: 5px;
+  padding: 5px;
+  text-decoration: none;
+  color: inherit;
+  transition-duration: 250ms;
+  &:hover,
+  &:focus {
+    color: rgba(247, 247, 247, 1);
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.25),
+      -2px 2px 4px rgba(255, 255, 255, 0.25),
+      -2px -2px 4px rgba(255, 255, 255, 0.25),
+      2px -2px 4px rgba(255, 255, 255, 0.25);
+  }
+`;
+
+export const Mail = styled.a`
+  outline: none;
+  display: flex;
+  gap: 5px;
+  padding: 5px;
+  text-decoration: none;
+  color: inherit;
+  transition-duration: 250ms;
+  &:hover,
+  &:focus {
+    color: rgba(247, 247, 247, 1);
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.25),
+      -2px 2px 4px rgba(255, 255, 255, 0.25),
+      -2px -2px 4px rgba(255, 255, 255, 0.25),
+      2px -2px 4px rgba(255, 255, 255, 0.25);
+  }
 `;

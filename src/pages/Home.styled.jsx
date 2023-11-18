@@ -1,5 +1,20 @@
 import styled from '@emotion/styled';
 import imgHero from '../img/hero-01.jpg';
+import bgImg from '../img/bg.png';
+import { Link } from 'react-scroll';
+
+export const HomeMain = styled.main`
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(${bgImg});
+  background-repeat: repeat;
+  background-size: contain;
+  backdrop-filter: blur(1px);
+
+  text-align: center;
+`;
 
 export const ImgHero = styled.img`
   width: 100%;
@@ -37,6 +52,8 @@ export const HeroDiv = styled.div`
   backdrop-filter: blur(1px);
   padding-top: 10vw;
   padding-bottom: 10vw;
+  border-bottom: 5px solid rgba(255, 255, 255, 0.75);
+  box-shadow: 0 5px 23px #a2a2a2;
 `;
 
 export const H1 = styled.h1`
@@ -57,7 +74,7 @@ export const HeroBoxOfButton = styled.div`
   gap: 1.5vw;
 `;
 
-export const HeroButton = styled.a`
+export const HeroButtonWhere = styled(Link)`
   display: inline-block;
   padding: 0.75vw;
 
@@ -67,9 +84,11 @@ export const HeroButton = styled.a`
   font-weight: 700;
   color: rgba(255, 255, 255, 0.75);
 
+  cursor: pointer;
+
   border-radius: 8px;
   backdrop-filter: blur(5px);
-  outline: 5px solid rgba(0, 0, 0, 0.599);
+  outline: 0.25vw solid rgba(255, 255, 255, 0.4);
   transition-duration: 250ms;
   &:hover,
   &:focus {
@@ -78,6 +97,61 @@ export const HeroButton = styled.a`
       -10px -10px 10px rgba(255, 255, 255, 0.5),
       10px -10px 10px rgba(255, 255, 255, 0.5);
     scale: 1.1;
+    outline: 0.25vw solid rgba(0, 0, 0, 0.599);
+    animation-play-state: paused;
+  }
+
+  @keyframes stretchAnimation {
+    0% {
+      transform: scale(1);
+    }
+    10% {
+      transform: scale(1.055);
+    }
+    30% {
+      transform: scale(1.005);
+    }
+    50% {
+      transform: scale(1.06);
+    }
+    75% {
+      transform: scale(0.85);
+    }
+    95% {
+      transform: scale(0.95);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  animation: stretchAnimation forwards infinite ease-out 2000ms;
+`;
+
+export const HeroButtonWhen = styled(Link)`
+  display: inline-block;
+  padding: 0.75vw;
+
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.75);
+
+  cursor: pointer;
+
+  border-radius: 8px;
+  backdrop-filter: blur(5px);
+  outline: 0.25vw solid rgba(255, 255, 255, 0.5);
+  transition-duration: 250ms;
+  &:hover,
+  &:focus {
+    box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.5),
+      -10px 10px 10px rgba(255, 255, 255, 0.5),
+      -10px -10px 10px rgba(255, 255, 255, 0.5),
+      10px -10px 10px rgba(255, 255, 255, 0.5);
+    scale: 1.1;
+    outline: 0.25vw solid rgba(0, 0, 0, 0.599);
+    animation-play-state: paused;
   }
 
   @keyframes stretchAnimation {
@@ -103,5 +177,5 @@ export const HeroButton = styled.a`
       transform: scale(1);
     }
   }
-  animation: stretchAnimation 3000ms forwards infinite ease-out 2000ms;
+  animation: stretchAnimation 1500ms forwards infinite ease-out 2000ms;
 `;

@@ -1,27 +1,27 @@
-import { Link, Outlet } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
+import { AboutH1, AboutMain, AboutList, AboutListItems } from './About.styled';
+import { BlurBox } from './Home.styled';
 
 const About = () => {
   return (
-    <main>
-      <h1>O nas</h1>
-      <p>
-        Tu się dowiesz <strong>W co wierzymy</strong>, o{' '}
-        <strong>Histori Ruchu Zielonoświątkowego</strong> oraz możesz zapoznać
-        się z <strong>Actami Prawnymi</strong>.
-      </p>
-      <ul>
+    <AboutMain>
+      <BlurBox></BlurBox>
+      <AboutH1>O nas</AboutH1>
+      <AboutList>
         <li>
-          <Link to="our-beliefs">W co wierzymy</Link>
+          <AboutListItems to="our-beliefs">W co wierzymy</AboutListItems>
         </li>
         <li>
-          <Link to="history">Historia Ruchu Zielonoświątkowego</Link>
+          <AboutListItems to="history">
+            Historia Ruchu Zielonoświątkowego
+          </AboutListItems>
         </li>
         <li>
-          <Link to="legal-acts">Akty Prawne</Link>
+          <AboutListItems to="legal-acts">Akty Prawne</AboutListItems>
         </li>
-      </ul>
+      </AboutList>
       <Outlet />
-    </main>
+    </AboutMain>
   );
 };
 

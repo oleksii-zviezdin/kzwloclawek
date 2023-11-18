@@ -1,7 +1,7 @@
 const Acts = () => {
   return (
     <main>
-      <h1>Acty Prawne</h1>
+      <h1>Akty Prawne</h1>
       <ul>
         <li>
           <a href="https://kz.pl/kzw/wp-content/uploads/ust_41_1997.pdf">
