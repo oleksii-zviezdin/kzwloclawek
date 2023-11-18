@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/kzwloclawek/static/css/main.7acaea2f.css",
-    "main.js": "/kzwloclawek/static/js/main.cc1831c8.js",
+    "main.js": "/kzwloclawek/static/js/main.996c7c55.js",
     "static/media/bg.webp": "/kzwloclawek/static/media/bg.4c0d1757235983bbff99.webp",
     "static/media/hero-01.webp": "/kzwloclawek/static/media/hero-01.ed5502b0a837faf734e8.webp",
     "static/media/logo.webp": "/kzwloclawek/static/media/logo.7bb3d9e624a2ed39eb19.webp",
     "index.html": "/kzwloclawek/index.html",
     "main.7acaea2f.css.map": "/kzwloclawek/static/css/main.7acaea2f.css.map",
-    "main.cc1831c8.js.map": "/kzwloclawek/static/js/main.cc1831c8.js.map"
+    "main.996c7c55.js.map": "/kzwloclawek/static/js/main.996c7c55.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.cc1831c8.js"
+    "static/js/main.996c7c55.js"
   ]
 }
