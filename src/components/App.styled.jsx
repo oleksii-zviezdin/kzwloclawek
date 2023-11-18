@@ -105,8 +105,22 @@ export const Footer = styled.footer`
     margin: 0;
     margin-top: 32px;
     text-align: center;
-    font-weight: bold;
     color: rgba(255, 255, 255, 0.5);
+    > a {
+      outline: none;
+      text-decoration: none;
+      color: inherit;
+      font-weight: bold;
+      transition-duration: 250ms;
+      &:hover,
+      &:focus {
+        color: rgba(247, 247, 247, 1);
+        text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.25),
+          -2px 2px 4px rgba(255, 255, 255, 0.25),
+          -2px -2px 4px rgba(255, 255, 255, 0.25),
+          2px -2px 4px rgba(255, 255, 255, 0.25);
+      }
+    }
   }
 `;
 
@@ -127,6 +141,7 @@ export const ContactListItems = styled.li`
 `;
 
 export const Address = styled.a`
+  font-size: 18px;
   outline: none;
   display: flex;
   gap: 5px;
@@ -145,6 +160,7 @@ export const Address = styled.a`
 `;
 
 export const Mail = styled.a`
+  font-size: 18px;
   outline: none;
   display: flex;
   gap: 5px;

@@ -100,7 +100,16 @@ export const App = () => {
             </ContactList>
           </Contact>
         </Logo>
-        <p>© 2023 Zbór Chrystusa Zbawiciela</p>
+        <p>
+          © 2023 Zbór Chrystusa Zbawiciela |{' '}
+          <a
+            href="https://github.com/oleksii-zviezdin"
+            target="_blank"
+            rel="noopener nofollow noreferrer"
+          >
+            Oleksii Zviezdin
+          </a>
+        </p>
       </Footer>
     </Container>
   );
