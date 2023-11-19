@@ -9,15 +9,17 @@ export const Container = styled.div`
 `;
 
 export const Header = styled.header`
+  @media screen and (max-width: 768px) {
+    padding: 8px 16px;
+  }
+
   position: sticky;
   top: 0;
   z-index: 1;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  @media screen and (max-width: 768px) {
-    padding: 8px 16px;
-  }
+
   padding: 8px 32px;
   background-color: rgba(117, 117, 117, 0.75);
   backdrop-filter: blur(10px);
@@ -28,7 +30,6 @@ export const Header = styled.header`
 export const Logo = styled.div`
   display: flex;
   align-items: center;
-  /* gap: 2px; */
   font-weight: 700;
   margin: 0;
 `;
@@ -59,9 +60,14 @@ export const LogoDescription = styled.p`
 `;
 
 export const Link = styled(NavLink)`
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 768px) {
+    font-size: 12px;
+  }
+
+  @media screen and (min-width: 768.1px) and (max-width: 1024px) {
     font-size: 14px;
   }
+
   @media screen and (min-width: 1024.1px) {
     padding: 8px 16px;
   }

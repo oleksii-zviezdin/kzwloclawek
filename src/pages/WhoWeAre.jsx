@@ -67,7 +67,6 @@ const WhoWeAre = () => {
         style={{
           width: '100%',
           height: '46vw',
-          marginBottom: '32px',
           boxShadow: '0 10px 20px rgba(0, 0, 0, 0.5)',
           borderRadius: '1.25vw',
           outline: '0.5vw solid rgba(255, 255, 255, 0.45)',

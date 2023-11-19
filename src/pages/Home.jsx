@@ -9,7 +9,7 @@ import {
   HomeMain,
 } from './Home.styled';
 
-import { Location } from '../components/index';
+import { Location, When } from '../components/index';
 import WhoWeAre from './WhoWeAre';
 
 const Home = () => {
@@ -38,6 +38,7 @@ const Home = () => {
         </HeroSection>
         <WhoWeAre />
         <Location />
+        <When />
       </HomeMain>
     </>
   );

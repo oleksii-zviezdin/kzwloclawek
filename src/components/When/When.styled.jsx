@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 
-export const LocationSection = styled.section`
+export const WhenSection = styled.section`
   @media screen and (max-width: 768px) {
     display: block;
   }
@@ -11,11 +11,11 @@ export const LocationSection = styled.section`
   gap: 24px;
 
   padding: 5vw 5vw;
+  background-color: rgba(177, 175, 175, 0.75);
 `;
 
-export const LocationDiv = styled.div`
+export const WhenDiv = styled.div`
   @media screen and (max-width: 768px) {
-    outline: 0.5vw solid rgba(255, 255, 255, 0.5);
     display: block;
     width: 85%;
     margin-left: auto;
@@ -34,15 +34,14 @@ export const LocationDiv = styled.div`
   align-items: center;
 
   font-size: 18px;
-  width: 50%;
+  width: 100%;
 
   backdrop-filter: blur(10px);
   border-radius: 8px;
-  outline: 5px solid rgba(255, 255, 255, 0.5);
   overflow: hidden;
 `;
 
-export const LocationDescription = styled.p`
+export const WhenDescription = styled.p`
   @media screen and (max-width: 1024px) {
     font-size: 18px;
   }
@@ -51,10 +50,15 @@ export const LocationDescription = styled.p`
   margin: 0;
   padding: 5px;
   font-size: 2vw;
-  color: rgba(247, 247, 247, 0.95);
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.75);
 `;
+
 export const H2 = styled.h2`
-  font-size: 22px;
+  @media screen and (max-width: 768px) {
+    font-size: 22px;
+  }
+  font-size: 42px;
   text-transform: uppercase;
   color: rgba(0, 0, 0, 0.75);
 
@@ -62,16 +66,4 @@ export const H2 = styled.h2`
     -5px 5px 10px rgba(255, 255, 255, 0.85),
     -5px -5px 10px rgba(255, 255, 255, 0.85),
     5px -5px 10px rgba(255, 255, 255, 0.85);
-`;
-
-export const Iframe = styled.iframe`
-  border-radius: '1.5vw';
-  width: 90%;
-  height: 250px;
-  @media screen and (min-width: 480px) {
-    height: 300px;
-  }
-  @media screen and (min-width: 1024px) {
-    height: 400px;
-  }
 `;

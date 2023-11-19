@@ -1,9 +1,10 @@
 import styled from '@emotion/styled';
 
-export const WhoWeAreMain = styled.main`
-  @media screen and (min-width: 320px) and (max-width: 480px) {
+export const WhoWeAreMain = styled.section`
+  @media screen and (max-width: 480px) {
     padding: 12px 16px;
   }
+
   margin: 0;
   padding: 24px 32px;
   background-color: rgba(177, 175, 175, 0.75);
@@ -13,8 +14,8 @@ export const WhoWeAreMain = styled.main`
 `;
 
 export const WhoWeAreH2 = styled.h2`
-  @media screen and (min-width: 320px) and (max-width: 480px) {
-    font-size: 18px;
+  @media screen and (max-width: 480px) {
+    font-size: 14px;
     margin-bottom: 10px;
   }
 
@@ -34,14 +35,14 @@ export const WhoWeAreH2 = styled.h2`
 `;
 
 export const WhoWeAreWelcome = styled.h3`
-  @media screen and (min-width: 320px) and (max-width: 480px) {
+  @media screen and (max-width: 480px) {
     font-size: 18px;
     margin-bottom: 10px;
   }
 
   margin: 0;
   margin-bottom: 15px;
-  font-size: 20px;
+  font-size: 36px;
   display: inline-block;
   text-transform: uppercase;
   color: rgba(0, 0, 0, 0.75);
@@ -49,7 +50,7 @@ export const WhoWeAreWelcome = styled.h3`
 `;
 
 export const WhoWeAreList = styled.ul`
-  @media screen and (min-width: 320px) and (max-width: 480px) {
+  @media screen and (max-width: 480px) {
     padding: 4px;
     margin-bottom: 15px;
   }
@@ -63,7 +64,7 @@ export const WhoWeAreList = styled.ul`
 `;
 
 export const WhoWeAreListItem = styled.li`
-  @media screen and (min-width: 320px) and (max-width: 480px) {
+  @media screen and (max-width: 480px) {
     padding: 4px;
   }
   margin: 0;
@@ -77,27 +78,41 @@ export const WhoWeAreListItem = styled.li`
 `;
 
 export const WhoWeAreDescription = styled.p`
-  @media screen and (min-width: 320px) and (max-width: 480px) {
+  @media screen and (max-width: 480px) {
     font-size: 12px;
   }
+
   margin: 0;
+
   > a {
+    outline: none;
     font-weight: 700;
     color: inherit;
+    transition-duration: 250ms;
+    &:hover,
+    &:focus {
+      color: rgba(255, 255, 255, 0.8);
+      text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.25),
+        -2px 2px 4px rgba(255, 255, 255, 0.25),
+        -2px -2px 4px rgba(255, 255, 255, 0.25),
+        2px -2px 4px rgba(255, 255, 255, 0.25);
+    }
   }
 `;
 
 export const WhoWeAreMotto = styled.p`
   @media screen and (min-width: 320px) and (max-width: 480px) {
     font-size: 18px;
-    margin: 0;
+    margin: 10px;
   }
+
   margin: 0;
   margin-bottom: 20px;
   font-size: 22px;
   padding: 5px;
   text-transform: uppercase;
   text-align: center;
+  font-weight: 500;
   color: rgba(0, 0, 0, 0.75);
   text-shadow: 3px 3px 10px rgba(255, 255, 255, 0.85),
     -3px 3px 10px rgba(255, 255, 255, 0.85),
@@ -110,6 +125,7 @@ export const WhoWeAreWishes = styled.p`
     font-size: 16px;
     margin-bottom: 10px;
   }
+
   margin: 0;
   padding: 0 10px;
   margin-bottom: 32px;
