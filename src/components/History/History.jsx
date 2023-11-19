@@ -2,7 +2,7 @@ import {
   HistorySection,
   HistoryH2,
   HistoryDescription,
-} from './History.sttyled';
+} from './History.styled';
 
 const History = () => {
   return (

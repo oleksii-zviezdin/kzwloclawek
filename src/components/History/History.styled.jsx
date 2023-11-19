@@ -29,8 +29,8 @@ export const HistoryH2 = styled.h2`
 `;
 
 export const HistoryDescription = styled.p`
-  @media screen and (max-width: 768px) {
-    font-size: 2.5vw;
+  @media screen and (max-width: 480px) {
+    font-size: 14px;
   }
 
   margin: 0;
