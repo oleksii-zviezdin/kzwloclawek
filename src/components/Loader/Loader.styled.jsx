@@ -8,8 +8,8 @@ export const LoaderWrapper = styled.div`
   height: 100%;
   z-index: 999;
   backdrop-filter: blur(10px);
+  background-color: transparent;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: rgba(255, 255, 255, 0.8); */
 `;

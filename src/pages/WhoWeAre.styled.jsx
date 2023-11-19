@@ -51,11 +51,11 @@ export const WhoWeAreWelcome = styled.h3`
 
 export const WhoWeAreList = styled.ul`
   @media screen and (max-width: 480px) {
-    padding: 4px;
+    padding: 3vw;
     margin-bottom: 15px;
   }
   margin: 0;
-  padding: 10px;
+  padding: 24px;
   border-radius: 1.5vw;
   background-color: rgba(255, 255, 255, 0.25);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
@@ -69,6 +69,7 @@ export const WhoWeAreListItem = styled.li`
   }
   margin: 0;
   padding: 10px;
+  margin-bottom: 15px;
   font-size: 18px;
   line-height: calc(24 / 18);
   display: inline-block;
@@ -83,6 +84,7 @@ export const WhoWeAreDescription = styled.p`
   }
 
   margin: 0;
+  text-align: justify;
 
   > a {
     outline: none;

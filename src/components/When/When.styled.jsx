@@ -10,20 +10,21 @@ export const WhenSection = styled.section`
   align-items: center;
   gap: 24px;
 
-  padding: 5vw 5vw;
+  padding: 7vw 5vw;
   background-color: rgba(177, 175, 175, 0.85);
 `;
 
 export const WhenDiv = styled.div`
   @media screen and (max-width: 768px) {
-    display: block;
     width: 85%;
+    height: 400px;
     margin-left: auto;
     margin-right: auto;
   }
 
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 480px) {
     width: 90%;
+    height: 300px;
   }
 
   display: flex;

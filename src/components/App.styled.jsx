@@ -78,7 +78,7 @@ export const Link = styled(NavLink)`
 
   border-radius: 8px;
 
-  font-size: 16px;
+  font-size: 22px;
   text-transform: uppercase;
   text-decoration: none;
   color: black;

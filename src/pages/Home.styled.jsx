@@ -1,24 +1,25 @@
 import styled from '@emotion/styled';
 import imgHero from '../img/hero-01.webp';
-import bgImg from '../img/bg.webp';
+import imgHero_small from '../img/hero-01-small.webp';
+import bgImg_large from '../img/bg.webp';
+import bgImg_small from '../img/bg-small.webp';
 import { Link } from 'react-scroll';
 
 export const HomeMain = styled.main`
+  @media screen and (min-width: 320px) and (max-width: 480px) {
+    background-image: url(${bgImg_small});
+  }
+
   margin-top: 0;
   margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
-  background-image: url(${bgImg});
+  background-image: url(${bgImg_large});
   background-repeat: repeat;
   background-size: contain;
   backdrop-filter: blur(1px);
 
   text-align: center;
-`;
-
-export const ImgHero = styled.img`
-  width: 100%;
-  size: cover;
 `;
 
 export const HeroSection = styled.section`
@@ -44,6 +45,10 @@ export const BlurBox = styled.div`
 `;
 
 export const HeroDiv = styled.div`
+  @media screen and (max-width: 480px) {
+    background-image: url(${imgHero_small});
+    background-size: cover;
+  }
   position: relative;
   width: 100%;
   background-image: url(${imgHero});
