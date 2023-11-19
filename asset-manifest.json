@@ -1,26 +1,28 @@
 {
   "files": {
     "main.css": "/kzwloclawek/static/css/main.7acaea2f.css",
-    "main.js": "/kzwloclawek/static/js/main.60dad042.js",
-    "static/js/578.4884e0b2.chunk.js": "/kzwloclawek/static/js/578.4884e0b2.chunk.js",
-    "static/js/487.c5fdac18.chunk.js": "/kzwloclawek/static/js/487.c5fdac18.chunk.js",
+    "main.js": "/kzwloclawek/static/js/main.c566f331.js",
+    "static/js/167.95ff784f.chunk.js": "/kzwloclawek/static/js/167.95ff784f.chunk.js",
+    "static/js/880.e7fdf095.chunk.js": "/kzwloclawek/static/js/880.e7fdf095.chunk.js",
     "static/js/44.51eb8aa3.chunk.js": "/kzwloclawek/static/js/44.51eb8aa3.chunk.js",
-    "static/js/719.906c49bf.chunk.js": "/kzwloclawek/static/js/719.906c49bf.chunk.js",
+    "static/js/719.1ab4db63.chunk.js": "/kzwloclawek/static/js/719.1ab4db63.chunk.js",
     "static/js/667.bc629d43.chunk.js": "/kzwloclawek/static/js/667.bc629d43.chunk.js",
     "static/media/bg.webp": "/kzwloclawek/static/media/bg.4c0d1757235983bbff99.webp",
     "static/media/hero-01.webp": "/kzwloclawek/static/media/hero-01.ed5502b0a837faf734e8.webp",
+    "static/media/hero-01-small.webp": "/kzwloclawek/static/media/hero-01-small.aa504892a55705a79df2.webp",
+    "static/media/bg-small.webp": "/kzwloclawek/static/media/bg-small.f65884275290286cb2d4.webp",
     "static/media/logo.webp": "/kzwloclawek/static/media/logo.7bb3d9e624a2ed39eb19.webp",
     "index.html": "/kzwloclawek/index.html",
     "main.7acaea2f.css.map": "/kzwloclawek/static/css/main.7acaea2f.css.map",
-    "main.60dad042.js.map": "/kzwloclawek/static/js/main.60dad042.js.map",
-    "578.4884e0b2.chunk.js.map": "/kzwloclawek/static/js/578.4884e0b2.chunk.js.map",
-    "487.c5fdac18.chunk.js.map": "/kzwloclawek/static/js/487.c5fdac18.chunk.js.map",
+    "main.c566f331.js.map": "/kzwloclawek/static/js/main.c566f331.js.map",
+    "167.95ff784f.chunk.js.map": "/kzwloclawek/static/js/167.95ff784f.chunk.js.map",
+    "880.e7fdf095.chunk.js.map": "/kzwloclawek/static/js/880.e7fdf095.chunk.js.map",
     "44.51eb8aa3.chunk.js.map": "/kzwloclawek/static/js/44.51eb8aa3.chunk.js.map",
-    "719.906c49bf.chunk.js.map": "/kzwloclawek/static/js/719.906c49bf.chunk.js.map",
+    "719.1ab4db63.chunk.js.map": "/kzwloclawek/static/js/719.1ab4db63.chunk.js.map",
     "667.bc629d43.chunk.js.map": "/kzwloclawek/static/js/667.bc629d43.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.60dad042.js"
+    "static/js/main.c566f331.js"
   ]
 }
