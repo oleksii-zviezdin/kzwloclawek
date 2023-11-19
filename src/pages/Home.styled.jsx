@@ -57,6 +57,11 @@ export const HeroDiv = styled.div`
 `;
 
 export const H1 = styled.h1`
+  @media screen and (min-width: 320px) and (max-width: 480px) {
+    font-size: 32px;
+  }
+  margin: 0;
+  margin-bottom: 32px;
   font-size: 46px;
   text-transform: uppercase;
   color: rgba(0, 0, 0, 0.75);
@@ -68,6 +73,10 @@ export const H1 = styled.h1`
 `;
 
 export const HeroBoxOfButton = styled.div`
+  @media screen and (min-width: 320px) and (max-width: 480px) {
+    gap: 8vw;
+  }
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -75,6 +84,12 @@ export const HeroBoxOfButton = styled.div`
 `;
 
 export const HeroButtonWhere = styled(Link)`
+  @media screen and (min-width: 320px) and (max-width: 480px) {
+    font-size: 16px;
+    padding: 2vw;
+    outline: 1vw solid rgba(255, 255, 255, 0.4);
+  }
+
   display: inline-block;
   padding: 0.75vw;
 
@@ -88,6 +103,7 @@ export const HeroButtonWhere = styled(Link)`
 
   border-radius: 8px;
   backdrop-filter: blur(5px);
+
   outline: 0.25vw solid rgba(255, 255, 255, 0.4);
   transition-duration: 250ms;
   &:hover,
@@ -128,6 +144,12 @@ export const HeroButtonWhere = styled(Link)`
 `;
 
 export const HeroButtonWhen = styled(Link)`
+  @media screen and (min-width: 320px) and (max-width: 480px) {
+    font-size: 16px;
+    padding: 2vw;
+    outline: 1vw solid rgba(255, 255, 255, 0.4);
+  }
+
   display: inline-block;
   padding: 0.75vw;
 

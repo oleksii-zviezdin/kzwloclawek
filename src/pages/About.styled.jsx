@@ -16,7 +16,7 @@ export const AboutMain = styled.main`
 `;
 
 export const AboutH1 = styled.h1`
-  font-size: 72px;
+  font-size: 46px;
   margin: 0;
   padding: 10vw;
   text-transform: uppercase;

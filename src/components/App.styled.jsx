@@ -97,16 +97,25 @@ export const HeaderNav = styled.nav`
 `;
 
 export const Footer = styled.footer`
+  @media screen and (min-width: 320px) and (max-width: 480px) {
+    padding: 5vw 16px;
+  }
   padding: 5vw 32px;
 
   background-color: rgba(0, 0, 0, 0.45);
   border-top: 0.25vw solid rgba(255, 255, 255, 0.5);
   > p {
+    @media screen and (min-width: 320px) and (max-width: 1024px) {
+      font-size: 12px;
+    }
     margin: 0;
     margin-top: 32px;
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
     > a {
+      @media screen and (min-width: 320px) and (max-width: 1024px) {
+        font-size: 12px;
+      }
       outline: none;
       text-decoration: none;
       color: inherit;
@@ -141,6 +150,11 @@ export const ContactListItems = styled.li`
 `;
 
 export const Address = styled.a`
+  @media screen and (min-width: 320px) and (max-width: 1024px) {
+    font-size: 12px;
+  }
+
+  align-items: center;
   font-size: 18px;
   outline: none;
   display: flex;
@@ -160,6 +174,11 @@ export const Address = styled.a`
 `;
 
 export const Mail = styled.a`
+  @media screen and (min-width: 320px) and (max-width: 1024px) {
+    font-size: 12px;
+  }
+
+  align-items: center;
   font-size: 18px;
   outline: none;
   display: flex;
