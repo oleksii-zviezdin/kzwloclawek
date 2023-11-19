@@ -1,13 +1,13 @@
 import styled from '@emotion/styled';
 
-export const ActsSection = styled.section`
-  text-align: justify;
+export const BeliefsSection = styled.section`
+  text-align: center;
   margin: 0;
   padding: 4vw;
   background-color: rgba(177, 175, 175, 0.85);
 `;
 
-export const ActsH2 = styled.h2`
+export const BeliefsH2 = styled.h2`
   @media screen and (max-width: 480px) {
     font-size: 20px;
     margin-bottom: 10px;
@@ -28,19 +28,35 @@ export const ActsH2 = styled.h2`
     3px -3px 10px rgba(255, 255, 255, 0.85);
 `;
 
-export const ActsList = styled.ul`
+export const BeliefsH3 = styled.h3`
+  @media screen and (max-width: 480px) {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  margin: 0;
+  margin-bottom: 15px;
+  font-size: 22px;
+  display: inline-block;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.75);
+  font-weight: 700;
+`;
+
+export const BeliefsList = styled.ul`
   @media screen and (max-width: 480px) {
     padding: 3vw;
     margin-bottom: 15px;
   }
   margin: 0;
-  padding: 0;
-  text-align: left;
+  padding: 1vw;
   margin-bottom: 50px;
+  background-color: rgba(243, 243, 243, 0.25);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 1.5vw;
 `;
 
-export const ActsListItem = styled.li`
-  width: 100%;
+export const BeliefsListItem = styled.li`
   @media screen and (max-width: 480px) {
   }
 
@@ -51,38 +67,20 @@ export const ActsListItem = styled.li`
   font-size: 18px;
   line-height: calc(24 / 18);
   display: inline-block;
-  text-align: justify;
-  color: rgba(0, 0, 0, 0.75);
-  font-weight: 500;
-
-  border-radius: 2vw;
-  transition-duration: 500ms;
-
-  &:hover,
-  &:focus {
-    > a {
-      color: rgba(255, 255, 255, 0.8);
-    }
-    background-color: rgba(0, 0, 0, 0.25);
-  }
 `;
 
-export const ActsDescription = styled.a`
+export const BeliefsDescription = styled.p`
   @media screen and (max-width: 480px) {
     font-size: 14px;
     line-height: 1.5;
-    padding: 2vw;
+    text-align: justify;
   }
 
-  display: inline-block;
+  text-align: center;
   margin: 0;
-  padding: 15px;
-
-  text-decoration: none;
+  padding: 5px;
   font-size: 18px;
   font-weight: 500;
   line-height: 1.75;
   color: rgba(0, 0, 0, 0.85);
-
-  transition-duration: 500ms;
 `;

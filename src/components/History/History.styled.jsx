@@ -9,13 +9,13 @@ export const HistorySection = styled.section`
 
 export const HistoryH2 = styled.h2`
   @media screen and (max-width: 480px) {
-    font-size: 14px;
+    font-size: 20px;
     margin-bottom: 10px;
   }
 
   margin: 0;
-  margin-bottom: 10px;
-  font-size: 22px;
+  margin-bottom: 20px;
+  font-size: 32px;
   display: block;
   padding: 5px;
   text-transform: uppercase;
@@ -36,7 +36,7 @@ export const HistoryDescription = styled.p`
 
   margin: 0;
   margin-bottom: 10px;
-  padding: 5px;
+  padding: 15px;
   font-size: 18px;
   font-weight: 500;
   line-height: 1.75;
