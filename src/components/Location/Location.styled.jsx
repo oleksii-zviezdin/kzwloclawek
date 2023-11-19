@@ -4,7 +4,7 @@ export const LocationSection = styled.section`
   @media screen and (max-width: 768px) {
     display: block;
   }
-
+  text-align: center;
   display: flex;
   justify-content: space-between;
   align-items: center;

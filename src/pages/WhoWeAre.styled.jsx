@@ -7,7 +7,7 @@ export const WhoWeAreMain = styled.section`
 
   margin: 0;
   padding: 32px 32px;
-  background-color: rgba(177, 175, 175, 0.75);
+  background-color: rgba(177, 175, 175, 0.85);
   backdrop-filter: blur(1px);
 
   /* border-bottom: 0.25vw solid rgba(255, 255, 255, 0.5); */

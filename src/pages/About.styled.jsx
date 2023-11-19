@@ -11,11 +11,13 @@ export const AboutMain = styled.main`
   background-repeat: repeat;
   background-size: contain;
   backdrop-filter: blur(1px);
-
-  text-align: center;
 `;
 
 export const AboutH1 = styled.h1`
+  @media screen and (max-width: 768px) {
+    font-size: 6vw;
+  }
+  text-align: center;
   font-size: 46px;
   margin: 0;
   padding: 10vw;
@@ -29,6 +31,7 @@ export const AboutH1 = styled.h1`
 `;
 
 export const AboutList = styled.ul`
+  text-align: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -43,6 +46,10 @@ export const AboutLisLi = styled.li`
 `;
 
 export const AboutListItems = styled(NavLink)`
+  @media screen and (max-width: 768px) {
+    font-size: 3vw;
+  }
+
   min-width: 100%;
   font-size: 22px;
   display: block;

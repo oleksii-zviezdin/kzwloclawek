@@ -30,7 +30,10 @@ const WhoWeAre = () => {
           <WhoWeAreListItem>
             <WhoWeAreDescription>
               Jesteśmy częścią{' '}
-              <a href="https://kz.pl/">Kościoła Zielonoświątkowego</a> w RP.
+              <a href="https://kz.pl/" rel="noopener nofollow noreferrer">
+                Kościoła Zielonoświątkowego
+              </a>{' '}
+              w RP.
             </WhoWeAreDescription>
           </WhoWeAreListItem>
           <WhoWeAreListItem>

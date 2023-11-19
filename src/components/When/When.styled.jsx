@@ -11,7 +11,7 @@ export const WhenSection = styled.section`
   gap: 24px;
 
   padding: 5vw 5vw;
-  background-color: rgba(177, 175, 175, 0.75);
+  background-color: rgba(177, 175, 175, 0.85);
 `;
 
 export const WhenDiv = styled.div`
