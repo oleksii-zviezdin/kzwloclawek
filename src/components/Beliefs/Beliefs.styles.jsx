@@ -50,7 +50,6 @@ export const BeliefsList = styled.ul`
   }
   margin: 0;
   padding: 1vw;
-  margin-bottom: 50px;
   background-color: rgba(243, 243, 243, 0.25);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
   border-radius: 1.5vw;
