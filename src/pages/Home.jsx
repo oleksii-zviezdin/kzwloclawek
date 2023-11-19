@@ -22,7 +22,12 @@ const Home = () => {
             <BlurBox></BlurBox>
             <H1>Witaj przyjacielu</H1>
             <HeroBoxOfButton>
-              <HeroButtonWhere to="where" smooth={true} duration={500}>
+              <HeroButtonWhere
+                to="where"
+                smooth={true}
+                duration={500}
+                offset={-150}
+              >
                 Gdzie?
               </HeroButtonWhere>
               <HeroButtonWhen to="when" smooth={true} duration={500}>

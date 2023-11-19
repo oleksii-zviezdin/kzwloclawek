@@ -57,9 +57,14 @@ export const HeroDiv = styled.div`
 `;
 
 export const H1 = styled.h1`
-  @media screen and (min-width: 320px) and (max-width: 480px) {
+  @media screen and (max-width: 480px) {
     font-size: 32px;
   }
+
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+    font-size: 38px;
+  }
+
   margin: 0;
   margin-bottom: 32px;
   font-size: 46px;
@@ -73,8 +78,8 @@ export const H1 = styled.h1`
 `;
 
 export const HeroBoxOfButton = styled.div`
-  @media screen and (min-width: 320px) and (max-width: 480px) {
-    gap: 8vw;
+  @media screen and (max-width: 768px) {
+    gap: 2vw;
   }
 
   display: flex;
@@ -84,10 +89,10 @@ export const HeroBoxOfButton = styled.div`
 `;
 
 export const HeroButtonWhere = styled(Link)`
-  @media screen and (min-width: 320px) and (max-width: 480px) {
+  @media screen and (max-width: 768px) {
     font-size: 16px;
-    padding: 2vw;
-    outline: 1vw solid rgba(255, 255, 255, 0.4);
+    padding: 1.75vw;
+    outline: 0.5vw solid rgba(255, 255, 255, 0.4);
   }
 
   display: inline-block;
@@ -144,10 +149,10 @@ export const HeroButtonWhere = styled(Link)`
 `;
 
 export const HeroButtonWhen = styled(Link)`
-  @media screen and (min-width: 320px) and (max-width: 480px) {
+  @media screen and (max-width: 768px) {
     font-size: 16px;
-    padding: 2vw;
-    outline: 1vw solid rgba(255, 255, 255, 0.4);
+    padding: 1.75vw;
+    outline: 0.5vw solid rgba(255, 255, 255, 0.4);
   }
 
   display: inline-block;

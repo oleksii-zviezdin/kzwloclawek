@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
 export const LocationSection = styled.section`
-  @media screen and (min-width: 320px) and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     display: block;
   }
 
@@ -14,12 +14,17 @@ export const LocationSection = styled.section`
 `;
 
 export const LocationDiv = styled.div`
-  @media screen and (min-width: 320px) and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
+    outline: 0.5vw solid rgba(255, 255, 255, 0.5);
     display: block;
-    width: 280px;
+    width: 85%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5vw;
+  }
+
+  @media screen and (max-width: 360px) {
+    width: 90%;
   }
 
   display: flex;
@@ -33,12 +38,12 @@ export const LocationDiv = styled.div`
 
   backdrop-filter: blur(10px);
   border-radius: 8px;
-  outline: 0.75vw solid rgba(255, 255, 255, 0.5);
+  outline: 5px solid rgba(255, 255, 255, 0.5);
   overflow: hidden;
 `;
 
 export const LocationDescription = styled.p`
-  @media screen and (min-width: 320px) and (max-width: 1024px) {
+  @media screen and (max-width: 1024px) {
     font-size: 18px;
   }
 
@@ -63,4 +68,15 @@ export const H2 = styled.h2`
     -5px 5px 10px rgba(255, 255, 255, 0.85),
     -5px -5px 10px rgba(255, 255, 255, 0.85),
     5px -5px 10px rgba(255, 255, 255, 0.85);
+`;
+
+export const Iframe = styled.iframe`
+  width: 90%;
+  height: 250px;
+  @media screen and (min-width: 480px) {
+    height: 300px;
+  }
+  @media screen and (min-width: 1024px) {
+    height: 400px;
+  }
 `;

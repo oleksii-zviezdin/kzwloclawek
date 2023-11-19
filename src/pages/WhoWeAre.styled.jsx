@@ -6,7 +6,7 @@ export const WhoWeAreMain = styled.main`
   }
   margin: 0;
   padding: 24px 32px;
-  background-color: #b1afaf;
+  background-color: rgba(177, 175, 175, 0.75);
   backdrop-filter: blur(1px);
 
   border-bottom: 0.25vw solid rgba(255, 255, 255, 0.5);

@@ -4,8 +4,8 @@ import { NavLink } from 'react-router-dom';
 export const Container = styled.div`
   max-width: 1720px;
   margin: 0 auto;
-  /* padding: 0 16px; */
-  /* background-color: rgba(0, 0, 0, 0.599); */
+  padding: 0 8px;
+  background-color: rgba(0, 0, 0, 0.75);
 `;
 
 export const Header = styled.header`
@@ -15,9 +15,11 @@ export const Header = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 24px;
+  @media screen and (max-width: 768px) {
+    padding: 8px 16px;
+  }
   padding: 8px 32px;
-  background-color: rgba(117, 117, 117, 0.615);
+  background-color: rgba(117, 117, 117, 0.75);
   backdrop-filter: blur(10px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
   border-bottom: 0.25vw solid rgba(255, 255, 255, 0.75);
@@ -26,12 +28,16 @@ export const Header = styled.header`
 export const Logo = styled.div`
   display: flex;
   align-items: center;
-  gap: 12px;
+  /* gap: 2px; */
   font-weight: 700;
   margin: 0;
 `;
 
 export const LogoTitle = styled.div`
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -40,6 +46,10 @@ export const LogoTitle = styled.div`
 `;
 
 export const LogoDescription = styled.p`
+  @media screen and (max-width: 1024px) {
+    font-size: 16px;
+  }
+
   margin: 0;
   color: #ffffff;
   text-shadow: -0.5px -0.5px 0px black, 0px -0.5px 0px black,
@@ -49,13 +59,20 @@ export const LogoDescription = styled.p`
 `;
 
 export const Link = styled(NavLink)`
+  @media screen and (max-width: 1024px) {
+    font-size: 14px;
+  }
+  @media screen and (min-width: 1024.1px) {
+    padding: 8px 16px;
+  }
+
   outline: none;
   display: inline-block;
-  padding: 8px 16px;
+  padding: 8px 12px;
 
   border-radius: 8px;
 
-  font-size: 18px;
+  font-size: 16px;
   text-transform: uppercase;
   text-decoration: none;
   color: black;
@@ -65,7 +82,7 @@ export const Link = styled(NavLink)`
   &:focus,
   &.active {
     color: white;
-    background-color: rgba(0, 0, 0, 0.599);
+    background-color: rgba(0, 0, 0, 0.75);
   }
 `;
 
@@ -97,7 +114,7 @@ export const HeaderNav = styled.nav`
 `;
 
 export const Footer = styled.footer`
-  @media screen and (min-width: 320px) and (max-width: 480px) {
+  @media screen and (max-width: 480px) {
     padding: 5vw 16px;
   }
   padding: 5vw 32px;
@@ -105,7 +122,7 @@ export const Footer = styled.footer`
   background-color: rgba(0, 0, 0, 0.45);
   border-top: 0.25vw solid rgba(255, 255, 255, 0.5);
   > p {
-    @media screen and (min-width: 320px) and (max-width: 1024px) {
+    @media screen and (max-width: 1024px) {
       font-size: 12px;
     }
     margin: 0;
@@ -113,7 +130,7 @@ export const Footer = styled.footer`
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
     > a {
-      @media screen and (min-width: 320px) and (max-width: 1024px) {
+      @media screen and (max-width: 1024px) {
         font-size: 12px;
       }
       outline: none;
@@ -150,7 +167,7 @@ export const ContactListItems = styled.li`
 `;
 
 export const Address = styled.a`
-  @media screen and (min-width: 320px) and (max-width: 1024px) {
+  @media screen and (max-width: 1024px) {
     font-size: 12px;
   }
 
@@ -174,7 +191,7 @@ export const Address = styled.a`
 `;
 
 export const Mail = styled.a`
-  @media screen and (min-width: 320px) and (max-width: 1024px) {
+  @media screen and (max-width: 1024px) {
     font-size: 12px;
   }
 
