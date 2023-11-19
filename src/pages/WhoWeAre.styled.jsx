@@ -6,11 +6,11 @@ export const WhoWeAreMain = styled.section`
   }
 
   margin: 0;
-  padding: 24px 32px;
+  padding: 32px 32px;
   background-color: rgba(177, 175, 175, 0.75);
   backdrop-filter: blur(1px);
 
-  border-bottom: 0.25vw solid rgba(255, 255, 255, 0.5);
+  /* border-bottom: 0.25vw solid rgba(255, 255, 255, 0.5); */
 `;
 
 export const WhoWeAreH2 = styled.h2`
@@ -79,7 +79,7 @@ export const WhoWeAreListItem = styled.li`
 
 export const WhoWeAreDescription = styled.p`
   @media screen and (max-width: 480px) {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   margin: 0;

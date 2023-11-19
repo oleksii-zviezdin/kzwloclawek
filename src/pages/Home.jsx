@@ -15,7 +15,7 @@ import WhoWeAre from './WhoWeAre';
 const Home = () => {
   return (
     <>
-      <HomeMain>
+      <HomeMain id="home">
         <BlurBox></BlurBox>
         <HeroSection>
           <HeroDiv>

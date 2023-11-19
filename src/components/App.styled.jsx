@@ -96,13 +96,13 @@ export const LogoLink = styled(NavLink)`
   outline: none;
   display: inline-block;
 
-  border-radius: 8px;
-
   font-size: 18px;
   text-transform: uppercase;
   text-decoration: none;
   color: black;
   font-weight: 700;
+
+  cursor: pointer;
 
   border-radius: 8px;
   transition-duration: 250ms;

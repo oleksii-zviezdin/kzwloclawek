@@ -1,5 +1,11 @@
 import { Outlet } from 'react-router-dom';
-import { AboutH1, AboutMain, AboutList, AboutListItems } from './About.styled';
+import {
+  AboutH1,
+  AboutMain,
+  AboutList,
+  AboutListItems,
+  AboutLisLi,
+} from './About.styled';
 import { BlurBox } from './Home.styled';
 
 const About = () => {
@@ -8,17 +14,17 @@ const About = () => {
       <BlurBox></BlurBox>
       <AboutH1>O nas</AboutH1>
       <AboutList>
-        <li>
+        <AboutLisLi>
           <AboutListItems to="our-beliefs">W co wierzymy</AboutListItems>
-        </li>
-        <li>
+        </AboutLisLi>
+        <AboutLisLi>
           <AboutListItems to="history">
             Historia Ruchu Zielonoświątkowego
           </AboutListItems>
-        </li>
-        <li>
+        </AboutLisLi>
+        <AboutLisLi>
           <AboutListItems to="legal-acts">Akty Prawne</AboutListItems>
-        </li>
+        </AboutLisLi>
       </AboutList>
       <Outlet />
     </AboutMain>

@@ -31,17 +31,22 @@ export const AboutH1 = styled.h1`
 export const AboutList = styled.ul`
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
+  flex-grow: 0, 0, 1;
   margin: 0;
   padding: 0;
   list-style: none;
   background-color: rgb(117, 117, 117, 0.95);
 `;
+export const AboutLisLi = styled.li`
+  width: 94%;
+`;
 
 export const AboutListItems = styled(NavLink)`
+  min-width: 100%;
   font-size: 22px;
-  display: inline-block;
-  padding: 5vw;
+  display: block;
+  padding: 3vw;
   text-decoration: none;
   text-transform: uppercase;
   color: rgba(0, 0, 0, 0.599);

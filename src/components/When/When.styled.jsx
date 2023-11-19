@@ -20,7 +20,6 @@ export const WhenDiv = styled.div`
     width: 85%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 5vw;
   }
 
   @media screen and (max-width: 360px) {
@@ -37,28 +36,20 @@ export const WhenDiv = styled.div`
   width: 100%;
 
   backdrop-filter: blur(10px);
-  border-radius: 8px;
+
+  outline: 5px solid transparent;
+  border-radius: 20px;
   overflow: hidden;
-`;
-
-export const WhenDescription = styled.p`
-  @media screen and (max-width: 1024px) {
-    font-size: 18px;
-  }
-
-  text-align: center;
-  margin: 0;
-  padding: 5px;
-  font-size: 2vw;
-  font-weight: 700;
-  color: rgba(0, 0, 0, 0.75);
 `;
 
 export const H2 = styled.h2`
   @media screen and (max-width: 768px) {
     font-size: 22px;
   }
-  font-size: 42px;
+
+  margin: 0;
+  margin-bottom: 1.5vw;
+  font-size: 4vw;
   text-transform: uppercase;
   color: rgba(0, 0, 0, 0.75);
 
@@ -66,4 +57,17 @@ export const H2 = styled.h2`
     -5px 5px 10px rgba(255, 255, 255, 0.85),
     -5px -5px 10px rgba(255, 255, 255, 0.85),
     5px -5px 10px rgba(255, 255, 255, 0.85);
+`;
+
+export const WhenDescription = styled.p`
+  @media screen and (max-width: 768px) {
+    font-size: 18px;
+  }
+
+  text-align: center;
+  margin: 0;
+  padding: 5px;
+  font-size: 3vw;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.75);
 `;

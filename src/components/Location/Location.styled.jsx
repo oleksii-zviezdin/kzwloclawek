@@ -43,18 +43,21 @@ export const LocationDiv = styled.div`
 `;
 
 export const LocationDescription = styled.p`
-  @media screen and (max-width: 1024px) {
-    font-size: 18px;
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    font-size: 4vw;
   }
 
   text-align: center;
   margin: 0;
   padding: 5px;
-  font-size: 2vw;
+  font-size: 3vw;
+  font-weight: 500;
   color: rgba(247, 247, 247, 0.95);
 `;
+
 export const H2 = styled.h2`
-  font-size: 22px;
+  font-size: 36px;
+  font-size: 4vw;
   text-transform: uppercase;
   color: rgba(0, 0, 0, 0.75);
 
@@ -68,9 +71,11 @@ export const Iframe = styled.iframe`
   border-radius: '1.5vw';
   width: 90%;
   height: 250px;
+
   @media screen and (min-width: 480px) {
     height: 300px;
   }
+
   @media screen and (min-width: 1024px) {
     height: 400px;
   }
