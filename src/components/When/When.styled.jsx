@@ -10,7 +10,7 @@ export const WhenSection = styled.section`
   align-items: center;
   gap: 24px;
 
-  padding: 7vw 5vw;
+  padding: 12vw 5vw;
   background-color: rgba(177, 175, 175, 0.85);
 `;
 
@@ -43,13 +43,13 @@ export const WhenDiv = styled.div`
   overflow: hidden;
 `;
 
-export const H2 = styled.h2`
+export const WhenH2 = styled.h2`
   @media screen and (max-width: 768px) {
     font-size: 22px;
   }
 
   margin: 0;
-  margin-bottom: 1.5vw;
+  margin-bottom: 5vw;
   font-size: 4vw;
   text-transform: uppercase;
   color: rgba(0, 0, 0, 0.75);

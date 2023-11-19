@@ -156,7 +156,9 @@ export const HeroButtonWhere = styled(Link)`
       transform: scale(1);
     }
   }
-  animation: stretchAnimation forwards infinite ease-out 2000ms;
+  @media screen and (min-width: 480px) {
+    animation: stretchAnimation forwards infinite ease-out 2000ms;
+  }
 `;
 
 export const HeroButtonWhen = styled(Link)`
@@ -215,5 +217,8 @@ export const HeroButtonWhen = styled(Link)`
       transform: scale(1);
     }
   }
-  animation: stretchAnimation 1500ms forwards infinite ease-out 2000ms;
+
+  @media screen and (min-width: 480px) {
+    animation: stretchAnimation forwards infinite ease-out 2000ms;
+  }
 `;
