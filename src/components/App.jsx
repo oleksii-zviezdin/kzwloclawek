@@ -1,3 +1,4 @@
+import { Home, About, SupportUs, WhoWeAre } from 'pages';
 import { Acts, Beliefs, History, Loader } from './index';
 import { Routes, Route } from 'react-router-dom';
 import { lazy, Suspense } from 'react';
@@ -20,10 +21,10 @@ import {
 
 import logo from '../img/logo.webp';
 
-const Home = lazy(() => import('../pages/Home'));
-const About = lazy(() => import('../pages/About'));
-const SupportUs = lazy(() => import('../pages/SupportUs'));
-const WhoWeAre = lazy(() => import('../pages/WhoWeAre'));
+// const Home = lazy(() => import('../pages/Home'));
+// const About = lazy(() => import('../pages/About'));
+// const SupportUs = lazy(() => import('../pages/SupportUs'));
+// const WhoWeAre = lazy(() => import('../pages/WhoWeAre'));
 
 export const App = () => {
   return (

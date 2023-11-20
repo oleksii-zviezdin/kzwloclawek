@@ -49,7 +49,7 @@ export const AboutList = styled.ul`
   background-color: rgb(117, 117, 117, 0.95);
 `;
 export const AboutLisLi = styled.li`
-  width: 94%;
+  width: 100%;
 `;
 
 export const AboutListItems = styled(NavLink)`
@@ -57,7 +57,6 @@ export const AboutListItems = styled(NavLink)`
     font-size: 3vw;
   }
 
-  min-width: 100%;
   font-size: 22px;
   display: block;
   padding: 5vw;
