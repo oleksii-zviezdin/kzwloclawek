@@ -1,7 +1,10 @@
 import { Home, About, SupportUs, WhoWeAre } from 'pages';
 import { Acts, Beliefs, History, Loader } from './index';
 import { Routes, Route } from 'react-router-dom';
-import { lazy, Suspense } from 'react';
+import {
+  // lazy,
+  Suspense,
+} from 'react';
 import {
   Container,
   Header,
