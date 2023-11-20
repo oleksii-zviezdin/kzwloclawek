@@ -1,10 +1,12 @@
-import { Home, About, SupportUs, WhoWeAre } from 'pages';
-import { Acts, Beliefs, History, Loader } from './index';
-import { Routes, Route } from 'react-router-dom';
+// import { Home, About, SupportUs, WhoWeAre } from 'pages';
 import {
-  // lazy,
-  Suspense,
-} from 'react';
+  // Acts,
+  Beliefs,
+  History,
+  Loader,
+} from './index';
+import { Routes, Route } from 'react-router-dom';
+import { lazy, Suspense } from 'react';
 import {
   Container,
   Header,
@@ -24,10 +26,10 @@ import {
 
 import logo from '../img/logo.webp';
 
-// const Home = lazy(() => import('../pages/Home'));
-// const About = lazy(() => import('../pages/About'));
-// const SupportUs = lazy(() => import('../pages/SupportUs'));
-// const WhoWeAre = lazy(() => import('../pages/WhoWeAre'));
+const Home = lazy(() => import('../pages/Home'));
+const About = lazy(() => import('../pages/About'));
+const SupportUs = lazy(() => import('../pages/SupportUs'));
+const WhoWeAre = lazy(() => import('../pages/WhoWeAre'));
 
 export const App = () => {
   return (
@@ -79,7 +81,7 @@ export const App = () => {
           <Route path="/about" element={<About />}>
             <Route path="our-beliefs" element={<Beliefs />} />
             <Route path="history" element={<History />} />
-            <Route path="legal-acts" element={<Acts />} />
+            {/* <Route path="legal-acts" element={<Acts />} /> */}
           </Route>
           <Route path="/support-us" element={<SupportUs />} />
         </Routes>

@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router-dom';
 import {
-  AboutH1,
+  // AboutH1,
   AboutMain,
   AboutList,
   AboutListItems,
@@ -12,7 +12,7 @@ const About = () => {
   return (
     <AboutMain>
       <BlurBox></BlurBox>
-      <AboutH1>O nas</AboutH1>
+      {/* <AboutH1>O nas</AboutH1> */}
       <AboutList>
         <AboutLisLi>
           <AboutListItems to="our-beliefs">W co wierzymy</AboutListItems>
@@ -23,7 +23,7 @@ const About = () => {
           </AboutListItems>
         </AboutLisLi>
         <AboutLisLi>
-          <AboutListItems to="legal-acts">Akty Prawne</AboutListItems>
+          {/* <AboutListItems to="legal-acts">Akty Prawne</AboutListItems> */}
         </AboutLisLi>
       </AboutList>
       <Outlet />

@@ -3,9 +3,10 @@ import { NavLink } from 'react-router-dom';
 
 export const Container = styled.div`
   max-width: 1720px;
+  max-width: 100vw;
   margin: 0 auto;
-  padding: 0 8px;
-  /* background-color: rgba(0, 0, 0, 0.75); */
+  /* padding: 0 8px; */
+  background-color: rgba(0, 0, 0, 0.75);
 `;
 
 export const Header = styled.header`
@@ -120,6 +121,11 @@ export const HeaderNav = styled.nav`
 `;
 
 export const Footer = styled.footer`
+  @media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   @media screen and (max-width: 480px) {
     padding: 5vw 16px;
   }
