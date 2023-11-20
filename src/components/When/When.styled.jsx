@@ -10,7 +10,7 @@ export const WhenSection = styled.section`
   align-items: center;
   gap: 24px;
 
-  padding: 12vw 5vw;
+  padding: 15vw 5vw;
   background-color: rgba(177, 175, 175, 0.85);
 `;
 
