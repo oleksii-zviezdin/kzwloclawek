@@ -1,4 +1,4 @@
-const BeliefsData = [
+const beliefsData = [
   {
     title: 'Pismo Święte',
     content:
@@ -60,4 +60,4 @@ const BeliefsData = [
   },
 ];
 
-export default BeliefsData;
+export default beliefsData;

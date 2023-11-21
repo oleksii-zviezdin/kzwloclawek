@@ -1,10 +1,4 @@
-// import { Home, About, SupportUs, WhoWeAre } from 'pages';
-import {
-  // Acts,
-  Beliefs,
-  History,
-  Loader,
-} from './index';
+import { Beliefs, History, Loader } from './index';
 import { Routes, Route } from 'react-router-dom';
 import { lazy, Suspense } from 'react';
 import {
@@ -81,7 +75,6 @@ export const App = () => {
           <Route path="/about" element={<About />}>
             <Route path="our-beliefs" element={<Beliefs />} />
             <Route path="history" element={<History />} />
-            {/* <Route path="legal-acts" element={<Acts />} /> */}
           </Route>
           <Route path="/support-us" element={<SupportUs />} />
         </Routes>
