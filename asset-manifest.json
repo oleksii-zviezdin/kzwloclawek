@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/kzwloclawek/static/css/main.7acaea2f.css",
-    "main.js": "/kzwloclawek/static/js/main.85ed8366.js",
-    "static/js/613.5722f1dd.chunk.js": "/kzwloclawek/static/js/613.5722f1dd.chunk.js",
+    "main.js": "/kzwloclawek/static/js/main.d980b4ef.js",
+    "static/js/613.64d9f543.chunk.js": "/kzwloclawek/static/js/613.64d9f543.chunk.js",
     "static/js/75.8bc8bf75.chunk.js": "/kzwloclawek/static/js/75.8bc8bf75.chunk.js",
     "static/js/44.51eb8aa3.chunk.js": "/kzwloclawek/static/js/44.51eb8aa3.chunk.js",
     "static/js/719.2a351c22.chunk.js": "/kzwloclawek/static/js/719.2a351c22.chunk.js",
@@ -14,8 +14,8 @@
     "static/media/logo.webp": "/kzwloclawek/static/media/logo.7bb3d9e624a2ed39eb19.webp",
     "index.html": "/kzwloclawek/index.html",
     "main.7acaea2f.css.map": "/kzwloclawek/static/css/main.7acaea2f.css.map",
-    "main.85ed8366.js.map": "/kzwloclawek/static/js/main.85ed8366.js.map",
-    "613.5722f1dd.chunk.js.map": "/kzwloclawek/static/js/613.5722f1dd.chunk.js.map",
+    "main.d980b4ef.js.map": "/kzwloclawek/static/js/main.d980b4ef.js.map",
+    "613.64d9f543.chunk.js.map": "/kzwloclawek/static/js/613.64d9f543.chunk.js.map",
     "75.8bc8bf75.chunk.js.map": "/kzwloclawek/static/js/75.8bc8bf75.chunk.js.map",
     "44.51eb8aa3.chunk.js.map": "/kzwloclawek/static/js/44.51eb8aa3.chunk.js.map",
     "719.2a351c22.chunk.js.map": "/kzwloclawek/static/js/719.2a351c22.chunk.js.map",
@@ -23,6 +23,6 @@
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.85ed8366.js"
+    "static/js/main.d980b4ef.js"
   ]
 }
