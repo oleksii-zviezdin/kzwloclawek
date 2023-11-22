@@ -57,7 +57,38 @@ const beliefsData = [
         { contentTitle: 'Ap', contetn: ['1:17-18'] },
       ],
     },
+  },{
+    title: 'Jezus Chrystus',
+    content:
+      'Jezus Chrystus jest jednorodzonym Synem Bożym – odwiecznym i wcielonym Słowem Boga – który się począł z Ducha Świętego i narodził się z Marii Dziewicy. Posiada dwie natury – boską i ludzką, jest Synem Bożym i Synem Człowieczym. On poniósł śmierć na krzyżu za grzech świata i zmartwychwstał w ciele dla usprawiedliwienia wierzących. Po zmartwychwstaniu Jezus Chrystus wstąpił do nieba i zasiadł na prawicy Ojca, skąd przyjdzie powtórnie. Jezus Chrystus jest jedynym pośrednikiem miedzy Bogiem a człowiekiem.',
+    reference: {
+      referenceTitle: 'Referencje biblijne',
+      referenceContent: [
+        { contentTitle: 'Wj', contetn: ['3:14'] },
+        { contentTitle: 'Ps', contetn: ['3:14', '22', '23', '24', '45:7-8', '110:1-4'] }, 
+        { contentTitle: 'Iz', contetn: ['42:1', '53'] },
+
+        { contentTitle: 'Mt', contetn: ['1:23','28:19'] },
+        { contentTitle: 'Łk', contetn: ['1:31-33, 35'] },
+        { contentTitle: 'J', contetn: ['1:14','3:13, 34', '5:22-23, 27', '17:1, 6, 8, 18, 21-23, 26'] },
+
+        { contentTitle: 'Dz', contetn: ['2:33, 36','3:22-23','10:38-40','17:31','20:28'] },
+        { contentTitle: 'Rz', contetn: ['3:25-26','8:3,29','9:5'] },
+        { contentTitle: 'Ga', contetn: ['4:4'] },
+
+        { contentTitle: '2-Kor', contetn: ['13:13'] },
+        { contentTitle: 'Ef', contetn: ['1:22-23'] },
+        { contentTitle: 'Flp ', contetn: ['2:11'] },
+
+        { contentTitle: 'Kol', contetn: ['1:19-20', '2:3'] },
+        { contentTitle: '1-Tm', contetn: ['2:5'] },
+        { contentTitle: 'Hbr', contetn: ['1:2', '2:14-17','5:5-6', '7:22-26', '9:14-15', '13:8' ] },
+
+        { contentTitle: '1-J', contetn: ['5:20'] },
+        { contentTitle: 'Ap', contetn: ['13:8'] },
+      ],
+    },
   },
-];
+] 
 
 export default beliefsData;
