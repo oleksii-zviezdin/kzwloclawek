@@ -112,7 +112,7 @@ const beliefsData = [
   },
   {
     nb: '4',
-    title: ' Upadek i zbawienie człowieka',
+    title: 'Upadek i zbawienie człowieka',
     content:
       'Człowiek został stworzony przez Boga jako istota prawa i czysta. Przez swój grzech utracił pierwotną sprawiedliwość i jego szczęśliwą społeczność z Bogiem została przerwana. Grzech pierwszego człowieka – jako mężczyzny i kobiety – objął wszystkich ludzi i dlatego śmierć stała się udziałem wszystkich. Zbawienie dokonało się przez śmierć Jezusa Chrystusa, Baranka Bożego na krzyżu i jest dostępne każdemu człowiekowi z łaski Bożej przez wiarę. Skutkiem zbawczej wiary jest usprawiedliwienie, odrodzenie, usynowienie i uświęcenie. Zbawczej wierze towarzyszą dobre uczynki.',
     reference: {
@@ -131,6 +131,34 @@ const beliefsData = [
           contentTitle: 'Tt',
           contetn: ['2:14'],
         },
+      ],
+    },
+  },
+  {
+    nb: '5',
+    title: 'Duch Święty',
+    content:
+      'Duch Święty jest trzecią, boską osobą Trójcy Świętej. Z Jego natchnienia powstało Pismo Święte. Z Ducha Świętego począł się Jezus Chrystus, który również “przez Ducha wiecznego ofiarował samego siebie bez skazy Bogu”. Duch Święty udziela się człowiekowi w odrodzeniu, chrzcie w Duchu, napełnieniu oraz w duchowych darach łaski Bożej.',
+    reference: {
+      referenceTitle: 'Referencje biblijne',
+      referenceContent: [
+        { contentTitle: 'Rdz', contetn: ['1:2'] },
+        { contentTitle: 'Ps', contetn: ['139:7'] },
+        { contentTitle: 'Iz', contetn: ['11:2'] },
+
+        { contentTitle: 'Mt', contetn: ['12:31'] },
+        { contentTitle: 'Łk', contetn: ['2:27', '4:18', '11:13'] },
+        {
+          contentTitle: 'J',
+          contetn: ['4,24', '14:16-17, 26', '15:26', ' 16:13'],
+        },
+        { contentTitle: 'Dz', contetn: ['2:4', '16:7', '21:11'] },
+        { contentTitle: 'Rz', contetn: ['1:4', '8:9,14'] },
+        { contentTitle: '1-Kor', contetn: ['6:19', '12:4,8-13'] },
+        { contentTitle: '2-Kor', contetn: ['1:22', '3:17'] },
+        { contentTitle: 'Ga', contetn: ['4:6'] },
+        { contentTitle: '1-P', contetn: ['1:11', '4:16'] },
+        { contentTitle: 'Ap', contetn: ['22:17'] },
       ],
     },
   },
