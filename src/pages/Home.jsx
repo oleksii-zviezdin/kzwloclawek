@@ -8,6 +8,7 @@ import {
   HeroBoxOfButton,
   HomeMain,
 } from './Home.styled';
+import ButtonUp from 'components/ButtonUp/ButtonUp';
 
 import { Location, When } from '../components/index';
 import WhoWeAre from './WhoWeAre';
@@ -40,6 +41,7 @@ const Home = () => {
         <Location />
         <When />
       </HomeMain>
+      <ButtonUp />
     </>
   );
 };

@@ -29,7 +29,7 @@ export const App = () => {
   return (
     <Suspense fallback={<Loader />}>
       <Container>
-        <Header>
+        <Header id="top">
           <Logo>
             <LogoLink to="/" end>
               <img src={logo} width="50px" alt="logo" />

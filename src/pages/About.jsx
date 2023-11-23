@@ -7,27 +7,28 @@ import {
   AboutLisLi,
 } from './About.styled';
 import { BlurBox } from './Home.styled';
+import ButtonUp from 'components/ButtonUp/ButtonUp';
 
 const About = () => {
   return (
-    <AboutMain>
-      <BlurBox></BlurBox>
-      {/* <AboutH1>O nas</AboutH1> */}
-      <AboutList>
-        <AboutLisLi>
-          <AboutListItems to="our-beliefs">W co wierzymy</AboutListItems>
-        </AboutLisLi>
-        <AboutLisLi>
-          <AboutListItems to="history">
-            Historia Ruchu Zielonoświątkowego
-          </AboutListItems>
-        </AboutLisLi>
-        <AboutLisLi>
-          {/* <AboutListItems to="legal-acts">Akty Prawne</AboutListItems> */}
-        </AboutLisLi>
-      </AboutList>
-      <Outlet />
-    </AboutMain>
+    <>
+      <AboutMain id="home">
+        <BlurBox></BlurBox>
+        <AboutList>
+          <AboutLisLi>
+            <AboutListItems to="our-beliefs">W co wierzymy</AboutListItems>
+          </AboutLisLi>
+          <AboutLisLi>
+            <AboutListItems to="history">
+              Historia Ruchu Zielonoświątkowego
+            </AboutListItems>
+          </AboutLisLi>
+          <AboutLisLi></AboutLisLi>
+        </AboutList>
+        <Outlet />
+      </AboutMain>
+      <ButtonUp />
+    </>
   );
 };
 
